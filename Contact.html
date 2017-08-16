@@ -1,0 +1,92 @@
+<! DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Us</title>
+        <style>
+            #contact {
+                position: relative;
+                }
+            #DropDown{
+                    width: 175px;
+                }
+        </style>
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"/>
+
+        <!-- Optional theme -->
+        <link rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"/>
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js">
+        </script> 
+    </head>
+    <body>
+        <link href="restaurantStyles.css" 
+            rel="stylesheet" 
+            type="text/css"/>
+        <h1>Punahele - Contact Us</h1>
+        <div class="fluid-container" style="background-color: black;">
+            <ul class="nav nav-tabs">
+                <li><a href="Restaurant Site V6.html" class="btn btn-info btn-lg">
+                    <span class="glyphicon glyphicon-home" style="text-decoration-line:underline"> Home</span></a></li>
+                <li><a href="Menu.html" style="text-decoration-line:underline">Menu</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+            <br/>
+            <form action="fakePage.html" method="POST">
+                <table cellspacing="10">
+                    <tbody style="color:gold;">
+                        <tr>
+                            <td align="right" style="padding-left:175px">Name: </td>
+                            <td align="left"><input type="text" name="name"/></td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="padding-left:175px">Email: </td>
+                            <td align="left"><input type="text" name="email"/></td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="padding-left:175px">Phone:</td>
+                            <td align="left"><input type="text" name="phone"/></td>
+                        </tr>
+                        <tr>
+                            <td align="right" id="DropDown" style="padding-left:90px">Reason for Inquiry: </td>
+                            <td align="left"><select name="Reasons" style="color:black;">
+                                <option value="Value1">Catering</option>
+                                <option value="Value2">Private Party</option>
+                                <option value="Value3">Feedback</option>
+                                <option value="Value4">Other</option>
+                            </select></td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="padding-left:55px">Additional Information: </td>
+                            <td align="left"><textarea id="TextArea"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="padding-right:15px">Have you been to the restaurant?</td>
+                            <td align="left"><input type="radio" name="answers" value="No" checked/>No <input type="radio" name="answers" value="Yes"/>Yes </td>
+                        </tr>
+                        <tr>
+                            <td align="right" style="padding-left:55px">Best days to contact you: </td>
+                            <td><input type="checkbox" id="Monday" name="Monday" value="Monday"><label for="Monday">M</label>
+                            <input type="checkbox" id="Tuesday" name="Tuesday" value="Tuesday"><label for="Tuesday">T</label>                
+                            <input type="checkbox" id="Wednesday" name="Wednesday" value="Wednesday"><label for="Wednesday">W</label>                   
+                            <input type="checkbox" id="Thursday" name="Thursday" value="Thursday"><label for="Thursday">Th</label>
+                            <input type="checkbox" id="Friday" name="Friday" value="Friday"><label for="Friday">F</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td align="right">
+                                <button name="sendRequest" type="submit" value="sendRequest">Send Request</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </form>
+        </div><hr/>
+    </body>
+    <footer>
+        <address>123 Mahalo St., Honolulu, HI, 96816</address>808-555-0097
+    </footer>   
+</html>

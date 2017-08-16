@@ -1,0 +1,81 @@
+h1 {
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    background-color: black;
+    
+}
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+#menuStyle{
+    color: gold;
+}
+
+a:link{
+    color: blue;
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover {
+    font-weight: bold; 
+}
+
+a:active {
+    text-decoration: none;
+    color: purple;
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    display: inline-block;
+}
+
+label {
+    vertical-align: middle;
+    text-decoration-style: bold;
+}
+th, td {
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 15px;
+    border-top: 0;
+}
+.table{
+    display: inline-block;
+    border-top: none;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+#tableStyle{
+    color:black;
+}
+
+tbody{
+    color: gold;
+}
+.item{
+    color: white;
+}
+input{
+    padding-left: 35px;
+}
+button{
+    align-content: center;
+    
+}
+
+
