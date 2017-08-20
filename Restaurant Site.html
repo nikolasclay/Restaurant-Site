@@ -15,12 +15,16 @@
     
 </head>
 <body>
+<div class="container">
 <link href="restaurantStyles.css" rel="stylesheet" type="text/css"/>
     <h1>Punahele</h1><hr/>
-<div style="background-color: black;">
-    <ul class="nav nav-tabs">
-        <li class="active"><a href="#" class="btn btn-info btn-lg">
-            <span class="glyphicon glyphicon-home"> Home</span></a></li>
+</div>
+<div id="links" class="container">
+    <nav class="navbar navbar-fixed-top">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#"><img src="Images\punahele.jpg" id="logo"/></a>
+        </div>
+    <ul class="nav navbar-nav">
         <li><a href="Menu.html" style="text-decoration-line:underline">Menu</a></li>
         <li><a href="Contact.html" style="text-decoration-line:underline">Contact Us</a></li>
     </ul>
@@ -37,35 +41,35 @@
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="\Restaurant Site V6\Images\RumFire.jpg" alt="Picture of Punahele new location" class="img-reponsive center-block"/>
+        <img src="Images/RumFireExterior.jpg" alt="Picture of Punahele new location" class="img-reponsive center-block"/>
         <div class="carousel-caption">
-            <div style="background-color:black;" class="fluid-container">
+            <div class="fluid-container">
             <h2>Grand Opening of our new location!</h2>
             <p style="color:white;">Join us on Independence Day 2017 for the grand opening of our new Hawaii Kai location. Doors open at 4pm.</p>
             </div>
         </div>
       </div>
-
       <div class="item">
-        <img src="\Images\Food Menu 2.jpg" alt="Picture of food menu" class="img-responsive center-block"/>
         <div class="carousel-caption">
-            <div style="background-color:black;" class="fluid-container">
+            <div class="fluid-container">
             <h2>New Menu</h2>
             <p style="color:white;"> We're rolling out our new seasonal menu during the Grand Opening of our Hawaii Kai location. Trust us, you don't want to miss this!</p>
             </div>
         </div>
+        <img src="Images/hawaiian food.jpg" alt="Picture of food menu" class="img-responsive center-block"/>
       </div>
     
       <div class="item">
-        <img src="\Restaurant Site V6\Images\drink.jpg" alt="Picture of a drink" class="img-responsive center-block"/>
+        <img src="Images/drink.jpg" alt="Picture of a drink" class="img-responsive center-block" id="drink"/>
         <div class="carousel-caption">
-            <div style="background-color:black;" class="fluid-container">
+            <div class="fluid-container">
             <h2>SG Brew</h2>
             <p style="color:white;">The Drink of the Month is SG Special Brew. It's Aloha in a glass!</p>
             </div>
         </div>             
       </div>
     </div>
+
 
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
@@ -75,8 +79,10 @@
     <a class="right carousel-control" href="#myCarousel" data-slide="next">
       <span class="glyphicon glyphicon-chevron-right"></span>
       <span class="sr-only">Next</span>
+
     </a>
   </div>
 </div>
 </body>
+<footer><address>123 Mahalo St., Honolulu, HI, 96816</address>808-555-0097</footer>
 </html>
